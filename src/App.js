@@ -1,6 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import Header from './components/Header';
+import Missions from './components/Missions';
 import SolarSystem from './components/SolarSystem';
 // import Title from './components/Title';
 
@@ -10,6 +11,7 @@ class App extends React.Component {
       <>
         <Header />
         <SolarSystem />
+        <Missions />
       </>
     );
   }
